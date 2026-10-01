@@ -1,0 +1,24 @@
+{
+ "ckpt": "standard_depth6_seed1-latest.pth.tar",
+ "model_name": "vit_small",
+ "patch_size": 16,
+ "crop_size": 128,
+ "epoch": 150,
+ "knn20_test_acc": 0.2094,
+ "attentive_sweep": {
+  "5e-04": {
+   "holdout_acc": 0.5335069855552924,
+   "val_acc": 0.4998
+  },
+  "1e-03": {
+   "holdout_acc": 0.5140105769989739,
+   "val_acc": 0.4792
+  },
+  "2e-03": {
+   "holdout_acc": 0.49838187702265374,
+   "val_acc": 0.4684
+  }
+ },
+ "attentive_best_lr": "5e-04",
+ "attentive_test_acc": 0.4998
+}

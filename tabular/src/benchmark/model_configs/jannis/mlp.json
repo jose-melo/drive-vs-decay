@@ -1,0 +1,12 @@
+{
+  "dropout": 0.4923467086368394,
+  "encoder_type": "linear_per_feature",
+  "exp_eta_min": 0,
+  "exp_lr": 0.0007306714468183099,
+  "exp_patience": 16,
+  "exp_train_total_epochs": 200,
+  "exp_weight_decay": 0.00000209376366726986,
+  "hidden_dim": 498,
+  "model_name": "mlp",
+  "n_hidden": 13
+}

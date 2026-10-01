@@ -1,0 +1,236 @@
+{
+ "config": {
+  "predictor_type": "standard",
+  "pred_depth": 6,
+  "effective_pred_depth": 6,
+  "dataset": "imagenet1k",
+  "predictor_trainable_params": 10943616,
+  "model_name": "vit_small",
+  "patch_size": 16,
+  "crop_size": 128,
+  "enc_mask_scale": [
+   0.85,
+   1.0
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.08985193073749542,
+  "mu_75": 0.09876331686973572,
+  "mu_mean": 0.0859006941318512,
+  "n_modes": 147456,
+  "n_learning": 0,
+  "n_total": 147072,
+  "frac_learning": 0.0
+ },
+ "erank": {
+  "epoch_0": 27.26129913330078,
+  "epoch_5": 135.07374572753906,
+  "epoch_10": 138.31451416015625,
+  "epoch_15": 150.31533813476562,
+  "epoch_20": 179.41079711914062,
+  "epoch_25": 200.6211395263672,
+  "epoch_30": 201.11480712890625
+ },
+ "probe_acc": {
+  "epoch_30": {
+   "test_acc": 0.28606,
+   "train_acc": 0.31949386770030763
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.3427037000656128,
+  "alpha_max": 0.3649986684322357,
+  "mu_approx": 2.917972580420181,
+  "context_sensitivity": 0.5479573607444763,
+  "n_samples": 200
+ },
+ "aux_by_epoch": {
+  "epoch_1": {
+   "pred_loss": 0.1632668028334729,
+   "sigreg": 0.005951430236319189,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_2": {
+   "pred_loss": 0.2299797833204079,
+   "sigreg": 0.0026901696418165613,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_3": {
+   "pred_loss": 0.25872100568074974,
+   "sigreg": 0.0020079050994970256,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_4": {
+   "pred_loss": 0.2692661535658901,
+   "sigreg": 0.0017348907221734768,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_5": {
+   "pred_loss": 0.2716290335670459,
+   "sigreg": 0.0015739386001018157,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_6": {
+   "pred_loss": 0.2678142620457543,
+   "sigreg": 0.001448232092666436,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_7": {
+   "pred_loss": 0.2605540918217574,
+   "sigreg": 0.0014040660384638931,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_8": {
+   "pred_loss": 0.25157639995324527,
+   "sigreg": 0.0013100974135481262,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_9": {
+   "pred_loss": 0.24252759770666668,
+   "sigreg": 0.001270652567228149,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_10": {
+   "pred_loss": 0.2343304518529837,
+   "sigreg": 0.0012120838989585572,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_11": {
+   "pred_loss": 0.2297164720120571,
+   "sigreg": 0.0011994551843889118,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_12": {
+   "pred_loss": 0.2264298550087771,
+   "sigreg": 0.0011663624275044698,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_13": {
+   "pred_loss": 0.22687572836399458,
+   "sigreg": 0.001132040606879761,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_14": {
+   "pred_loss": 0.23119669348644695,
+   "sigreg": 0.0011237432500332606,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_15": {
+   "pred_loss": 0.23601032689892704,
+   "sigreg": 0.001103036532535491,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_16": {
+   "pred_loss": 0.24327772893875146,
+   "sigreg": 0.001085871702767715,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_17": {
+   "pred_loss": 0.2530558218153642,
+   "sigreg": 0.0010850780025060526,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_18": {
+   "pred_loss": 0.2609636338351728,
+   "sigreg": 0.001060075458525557,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_19": {
+   "pred_loss": 0.26990235202032314,
+   "sigreg": 0.0010459898447757103,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_20": {
+   "pred_loss": 0.27716921335406347,
+   "sigreg": 0.0010404414975633033,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_21": {
+   "pred_loss": 0.2836669091698077,
+   "sigreg": 0.0010118688912511312,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_22": {
+   "pred_loss": 0.2884474843144893,
+   "sigreg": 0.0009926913201333963,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_23": {
+   "pred_loss": 0.2907981837539078,
+   "sigreg": 0.0009714401452980793,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_24": {
+   "pred_loss": 0.2917401963334194,
+   "sigreg": 0.0009426188904685612,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_25": {
+   "pred_loss": 0.2896284845759638,
+   "sigreg": 0.000927623769919426,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_26": {
+   "pred_loss": 0.2859496208641836,
+   "sigreg": 0.0009024816170278237,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_27": {
+   "pred_loss": 0.28069005381289147,
+   "sigreg": 0.0008899606412092743,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_28": {
+   "pred_loss": 0.2746419827762744,
+   "sigreg": 0.0008823237535234788,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_29": {
+   "pred_loss": 0.26941934015920505,
+   "sigreg": 0.0008821277640950528,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  },
+  "epoch_30": {
+   "pred_loss": 0.26714472573914594,
+   "sigreg": 0.000870613652855816,
+   "vicreg_var": null,
+   "vicreg_cov": null
+  }
+ }
+}

@@ -1,0 +1,15 @@
+# Tested with Python 3.10-3.12 and PyTorch 2.4-2.6. Install torch/torchvision for your CUDA first.
+torch>=2.0
+torchvision
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+tqdm
+tabulate
+pyyaml
+pillow
+wandb
+pytorch_lightning
+tensorboard

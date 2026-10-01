@@ -1,0 +1,101 @@
+{
+ "config": {
+  "predictor_type": "standard",
+  "pred_depth": 4,
+  "model_name": "vit_small",
+  "patch_size": 8,
+  "crop_size": 96,
+  "enc_mask_scale": [
+   0.8,
+   0.9
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.02592294290661812,
+  "mu_75": 0.061602842062711716,
+  "mu_mean": 0.06207229569554329,
+  "n_modes": 147456,
+  "n_learning": 2514,
+  "n_total": 147449,
+  "frac_learning": 0.017049962654709816
+ },
+ "erank": {
+  "epoch_0": 7.379576683044434,
+  "epoch_5": 28.459436416625977,
+  "epoch_10": 28.19363021850586,
+  "epoch_15": 29.462108612060547,
+  "epoch_20": 33.55261993408203,
+  "epoch_25": 40.44940948486328,
+  "epoch_30": 47.84151077270508,
+  "epoch_35": 55.738250732421875,
+  "epoch_40": 62.95191192626953,
+  "epoch_45": 70.47063446044922,
+  "epoch_50": 76.45576477050781,
+  "epoch_55": 82.26078033447266,
+  "epoch_60": 88.18348693847656,
+  "epoch_65": 94.75782012939453,
+  "epoch_70": 102.26288604736328,
+  "epoch_75": 109.66703033447266,
+  "epoch_80": 118.2864761352539,
+  "epoch_85": 125.26685333251953,
+  "epoch_90": 129.4315185546875,
+  "epoch_95": 132.17617797851562,
+  "epoch_100": 131.75393676757812
+ },
+ "probe_acc": {
+  "epoch_10": {
+   "test_acc": 0.52625,
+   "train_acc": 0.5872
+  },
+  "epoch_20": {
+   "test_acc": 0.594875,
+   "train_acc": 0.6652
+  },
+  "epoch_30": {
+   "test_acc": 0.630125,
+   "train_acc": 0.712
+  },
+  "epoch_40": {
+   "test_acc": 0.65725,
+   "train_acc": 0.7472
+  },
+  "epoch_50": {
+   "test_acc": 0.674875,
+   "train_acc": 0.7792
+  },
+  "epoch_60": {
+   "test_acc": 0.687125,
+   "train_acc": 0.7918
+  },
+  "epoch_70": {
+   "test_acc": 0.697125,
+   "train_acc": 0.81
+  },
+  "epoch_80": {
+   "test_acc": 0.706,
+   "train_acc": 0.8276
+  },
+  "epoch_90": {
+   "test_acc": 0.717,
+   "train_acc": 0.8422
+  },
+  "epoch_100": {
+   "test_acc": 0.714875,
+   "train_acc": 0.8436
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.30663225054740906,
+  "alpha_max": 0.3469734191894531,
+  "mu_approx": 3.26123556219142,
+  "context_sensitivity": 0.5205573439598083,
+  "n_samples": 200
+ }
+}

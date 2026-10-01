@@ -1,0 +1,24 @@
+{
+ "ckpt": "residualpred_sigreg0.05_seed3-latest.pth.tar",
+ "model_name": "vit_small",
+ "patch_size": 16,
+ "crop_size": 128,
+ "epoch": 30,
+ "knn20_test_acc": 0.19112,
+ "attentive_sweep": {
+  "5e-04": {
+   "holdout_acc": 0.37145,
+   "val_acc": 0.33466
+  },
+  "1e-03": {
+   "holdout_acc": 0.35055,
+   "val_acc": 0.3153
+  },
+  "2e-03": {
+   "holdout_acc": 0.3495,
+   "val_acc": 0.31742
+  }
+ },
+ "attentive_best_lr": "5e-04",
+ "attentive_test_acc": 0.33466
+}

@@ -1,0 +1,60 @@
+{
+ "config": {
+  "predictor_type": "mimetic",
+  "pred_depth": 6,
+  "effective_pred_depth": 6,
+  "dataset": "imagenet1k",
+  "predictor_trainable_params": 10943616,
+  "model_name": "vit_small",
+  "patch_size": 16,
+  "crop_size": 128,
+  "enc_mask_scale": [
+   0.85,
+   1.0
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "sigreg_lambda": 0.0,
+  "sigreg_slices": 48,
+  "sigreg_samples": 384,
+  "vicreg_var_weight": 0.0,
+  "vicreg_cov_weight": 0.0,
+  "vicreg_projector": false,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.08961649239063263,
+  "mu_75": 0.09873632341623306,
+  "mu_mean": 0.08581093698740005,
+  "n_modes": 147456,
+  "n_learning": 0,
+  "n_total": 147072,
+  "frac_learning": 0.0
+ },
+ "erank": {
+  "epoch_0": 27.196828842163086,
+  "epoch_5": 92.93766021728516,
+  "epoch_10": 93.53246307373047,
+  "epoch_15": 95.23126220703125,
+  "epoch_20": 106.72827911376953,
+  "epoch_25": 123.00820922851562,
+  "epoch_30": 126.69625854492188
+ },
+ "probe_acc": {
+  "epoch_30": {
+   "test_acc": 0.25568,
+   "train_acc": 0.28483874467575265
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 1.7901978492736816,
+  "alpha_max": 1.871442437171936,
+  "mu_approx": 0.5585974759190553,
+  "context_sensitivity": 0.5888163447380066,
+  "n_samples": 200
+ }
+}

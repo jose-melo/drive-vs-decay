@@ -1,0 +1,24 @@
+{
+ "ckpt": "standard_sigreg0.05_seed0-latest.pth.tar",
+ "model_name": "vit_small",
+ "patch_size": 16,
+ "crop_size": 128,
+ "epoch": 30,
+ "knn20_test_acc": 0.15972,
+ "attentive_sweep": {
+  "5e-04": {
+   "holdout_acc": 0.346,
+   "val_acc": 0.31378
+  },
+  "1e-03": {
+   "holdout_acc": 0.3251,
+   "val_acc": 0.28936
+  },
+  "2e-03": {
+   "holdout_acc": 0.32535,
+   "val_acc": 0.29166
+  }
+ },
+ "attentive_best_lr": "5e-04",
+ "attentive_test_acc": 0.31378
+}

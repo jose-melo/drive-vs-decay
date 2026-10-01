@@ -1,0 +1,51 @@
+{
+ "config": {
+  "predictor_type": "residualpred",
+  "pred_depth": 6,
+  "model_name": "vit_small",
+  "patch_size": 16,
+  "crop_size": 128,
+  "enc_mask_scale": [
+   0.85,
+   1.0
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.08870340883731842,
+  "mu_75": 0.09732575714588165,
+  "mu_mean": 0.08373162895441055,
+  "n_modes": 147456,
+  "n_learning": 0,
+  "n_total": 147456,
+  "frac_learning": 0.0
+ },
+ "erank": {
+  "epoch_0": 27.574323654174805,
+  "epoch_5": 107.24256134033203,
+  "epoch_10": 123.27168273925781,
+  "epoch_15": 144.34828186035156,
+  "epoch_20": 168.18592834472656,
+  "epoch_25": 185.0393829345703,
+  "epoch_30": 190.5399169921875
+ },
+ "probe_acc": {
+  "epoch_30": {
+   "test_acc": 0.31426,
+   "train_acc": 0.3499653050695187
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.24032893776893616,
+  "alpha_max": 0.25891631841659546,
+  "mu_approx": 4.160963757770395,
+  "context_sensitivity": 0.5111860632896423,
+  "n_samples": 200
+ }
+}

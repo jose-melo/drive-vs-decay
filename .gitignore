@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+logs/
+wandb/
+checkpoints/
+lightning_logs/
+tabular/data/
+tabular/experiments/
+image/data/
+image/logs/
+*.pth.tar
+.DS_Store

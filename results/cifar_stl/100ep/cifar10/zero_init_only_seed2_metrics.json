@@ -1,0 +1,101 @@
+{
+ "config": {
+  "predictor_type": "residualpred",
+  "pred_depth": 4,
+  "model_name": "vit_small",
+  "patch_size": 4,
+  "crop_size": 32,
+  "enc_mask_scale": [
+   0.8,
+   0.9
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 0.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.009305262006819248,
+  "mu_75": 0.05076753720641136,
+  "mu_mean": 0.046317264437675476,
+  "n_modes": 147456,
+  "n_learning": 1698,
+  "n_total": 147072,
+  "frac_learning": 0.011545365676283836
+ },
+ "erank": {
+  "epoch_0": 4.160815238952637,
+  "epoch_5": 16.339513778686523,
+  "epoch_10": 17.372461318969727,
+  "epoch_15": 17.29126739501953,
+  "epoch_20": 17.23015594482422,
+  "epoch_25": 17.814882278442383,
+  "epoch_30": 18.552825927734375,
+  "epoch_35": 19.213420867919922,
+  "epoch_40": 20.372339248657227,
+  "epoch_45": 22.03541374206543,
+  "epoch_50": 23.827219009399414,
+  "epoch_55": 25.495033264160156,
+  "epoch_60": 28.10784339904785,
+  "epoch_65": 30.204551696777344,
+  "epoch_70": 32.74563217163086,
+  "epoch_75": 35.54832458496094,
+  "epoch_80": 38.15403747558594,
+  "epoch_85": 40.40278625488281,
+  "epoch_90": 41.988948822021484,
+  "epoch_95": 42.95679473876953,
+  "epoch_100": 43.17865753173828
+ },
+ "probe_acc": {
+  "epoch_10": {
+   "test_acc": 0.5151,
+   "train_acc": 0.527
+  },
+  "epoch_20": {
+   "test_acc": 0.5398,
+   "train_acc": 0.55356
+  },
+  "epoch_30": {
+   "test_acc": 0.5612,
+   "train_acc": 0.57066
+  },
+  "epoch_40": {
+   "test_acc": 0.5709,
+   "train_acc": 0.58322
+  },
+  "epoch_50": {
+   "test_acc": 0.5832,
+   "train_acc": 0.59614
+  },
+  "epoch_60": {
+   "test_acc": 0.6047,
+   "train_acc": 0.62168
+  },
+  "epoch_70": {
+   "test_acc": 0.6312,
+   "train_acc": 0.64098
+  },
+  "epoch_80": {
+   "test_acc": 0.6405,
+   "train_acc": 0.65092
+  },
+  "epoch_90": {
+   "test_acc": 0.6457,
+   "train_acc": 0.65898
+  },
+  "epoch_100": {
+   "test_acc": 0.6475,
+   "train_acc": 0.66146
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.1965687870979309,
+  "alpha_max": 0.2226468324661255,
+  "mu_approx": 5.087277663781881,
+  "context_sensitivity": 0.5406158566474915,
+  "n_samples": 200
+ }
+}

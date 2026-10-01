@@ -1,0 +1,66 @@
+{
+ "config": {
+  "predictor_type": "residualpred",
+  "pred_depth": 6,
+  "effective_pred_depth": 6,
+  "dataset": "imagenet1k",
+  "predictor_trainable_params": 10943652,
+  "model_name": "vit_small",
+  "patch_size": 16,
+  "crop_size": 128,
+  "enc_mask_scale": [
+   0.85,
+   1.0
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.08985193073749542,
+  "mu_75": 0.09876331686973572,
+  "mu_mean": 0.0859006941318512,
+  "n_modes": 147456,
+  "n_learning": 0,
+  "n_total": 147072,
+  "frac_learning": 0.0
+ },
+ "erank": {
+  "epoch_0": 27.26129913330078,
+  "epoch_5": 107.79148864746094,
+  "epoch_10": 121.98265075683594,
+  "epoch_15": 141.69625854492188,
+  "epoch_20": 169.87869262695312,
+  "epoch_25": 194.91397094726562,
+  "epoch_30": 212.22499084472656,
+  "epoch_35": 220.0269775390625,
+  "epoch_40": 226.1495361328125,
+  "epoch_45": 230.25942993164062,
+  "epoch_50": 234.84613037109375,
+  "epoch_55": 240.28318786621094,
+  "epoch_60": 247.3164825439453,
+  "epoch_65": 252.822021484375,
+  "epoch_70": 259.76422119140625,
+  "epoch_75": 263.16357421875,
+  "epoch_80": 264.21173095703125,
+  "epoch_85": 262.0778503417969,
+  "epoch_90": 260.0762939453125
+ },
+ "probe_acc": {
+  "epoch_90": {
+   "test_acc": 0.35072,
+   "train_acc": 0.39136818229005277
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.23757384717464447,
+  "alpha_max": 0.25559812784194946,
+  "mu_approx": 4.209217520752119,
+  "context_sensitivity": 0.5771777033805847,
+  "n_samples": 200
+ }
+}

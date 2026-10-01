@@ -1,0 +1,101 @@
+{
+ "config": {
+  "predictor_type": "residualpred",
+  "pred_depth": 4,
+  "model_name": "vit_small",
+  "patch_size": 8,
+  "crop_size": 96,
+  "enc_mask_scale": [
+   0.8,
+   0.9
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 0.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.028279704973101616,
+  "mu_75": 0.06185577064752579,
+  "mu_mean": 0.0622650682926178,
+  "n_modes": 147456,
+  "n_learning": 2338,
+  "n_total": 147072,
+  "frac_learning": 0.015896975994110107
+ },
+ "erank": {
+  "epoch_0": 6.8658037185668945,
+  "epoch_5": 31.352474212646484,
+  "epoch_10": 28.157381057739258,
+  "epoch_15": 27.420103073120117,
+  "epoch_20": 29.13654136657715,
+  "epoch_25": 33.794124603271484,
+  "epoch_30": 40.847320556640625,
+  "epoch_35": 46.93285369873047,
+  "epoch_40": 52.928157806396484,
+  "epoch_45": 58.761722564697266,
+  "epoch_50": 64.54161834716797,
+  "epoch_55": 70.07817077636719,
+  "epoch_60": 76.91456604003906,
+  "epoch_65": 84.6069107055664,
+  "epoch_70": 92.76883697509766,
+  "epoch_75": 102.0313720703125,
+  "epoch_80": 110.495849609375,
+  "epoch_85": 118.44400024414062,
+  "epoch_90": 123.7424087524414,
+  "epoch_95": 126.7210922241211,
+  "epoch_100": 127.3596420288086
+ },
+ "probe_acc": {
+  "epoch_10": {
+   "test_acc": 0.537,
+   "train_acc": 0.5988
+  },
+  "epoch_20": {
+   "test_acc": 0.60025,
+   "train_acc": 0.6752
+  },
+  "epoch_30": {
+   "test_acc": 0.636125,
+   "train_acc": 0.7138
+  },
+  "epoch_40": {
+   "test_acc": 0.657375,
+   "train_acc": 0.7468
+  },
+  "epoch_50": {
+   "test_acc": 0.670375,
+   "train_acc": 0.7618
+  },
+  "epoch_60": {
+   "test_acc": 0.6825,
+   "train_acc": 0.7836
+  },
+  "epoch_70": {
+   "test_acc": 0.693,
+   "train_acc": 0.8032
+  },
+  "epoch_80": {
+   "test_acc": 0.698625,
+   "train_acc": 0.8128
+  },
+  "epoch_90": {
+   "test_acc": 0.70625,
+   "train_acc": 0.829
+  },
+  "epoch_100": {
+   "test_acc": 0.705125,
+   "train_acc": 0.8312
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.26823168992996216,
+  "alpha_max": 0.30553287267684937,
+  "mu_approx": 3.7281202689402937,
+  "context_sensitivity": 0.6173583269119263,
+  "n_samples": 200
+ }
+}

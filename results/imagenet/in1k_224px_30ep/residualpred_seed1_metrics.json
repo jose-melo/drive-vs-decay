@@ -1,0 +1,54 @@
+{
+ "config": {
+  "predictor_type": "residualpred",
+  "pred_depth": 6,
+  "effective_pred_depth": 6,
+  "dataset": "imagenet1k",
+  "predictor_trainable_params": 10943652,
+  "model_name": "vit_small",
+  "patch_size": 16,
+  "crop_size": 224,
+  "enc_mask_scale": [
+   0.85,
+   1.0
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.08542206883430481,
+  "mu_75": 0.09241842478513718,
+  "mu_mean": 0.08250316232442856,
+  "n_modes": 147456,
+  "n_learning": 0,
+  "n_total": 147072,
+  "frac_learning": 0.0
+ },
+ "erank": {
+  "epoch_0": 16.724138259887695,
+  "epoch_5": 120.51702117919922,
+  "epoch_10": 174.87376403808594,
+  "epoch_15": 219.65798950195312,
+  "epoch_20": 247.25845336914062,
+  "epoch_25": 264.52117919921875,
+  "epoch_30": 270.31201171875
+ },
+ "probe_acc": {
+  "epoch_30": {
+   "test_acc": 0.4091,
+   "train_acc": 0.4556088316355323
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.37162092328071594,
+  "alpha_max": 0.3894757330417633,
+  "mu_approx": 2.69091414759932,
+  "context_sensitivity": 0.5737945437431335,
+  "n_samples": 200
+ }
+}

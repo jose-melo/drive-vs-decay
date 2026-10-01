@@ -1,0 +1,236 @@
+{
+ "config": {
+  "predictor_type": "standard",
+  "pred_depth": 6,
+  "effective_pred_depth": 6,
+  "dataset": "imagenet1k",
+  "predictor_trainable_params": 10943616,
+  "model_name": "vit_small",
+  "patch_size": 16,
+  "crop_size": 128,
+  "enc_mask_scale": [
+   0.85,
+   1.0
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.08985193073749542,
+  "mu_75": 0.09876331686973572,
+  "mu_mean": 0.0859006941318512,
+  "n_modes": 147456,
+  "n_learning": 0,
+  "n_total": 147072,
+  "frac_learning": 0.0
+ },
+ "erank": {
+  "epoch_0": 27.26129913330078,
+  "epoch_5": 215.87440490722656,
+  "epoch_10": 1.4541287422180176,
+  "epoch_15": 11.457176208496094,
+  "epoch_20": 5.146602153778076,
+  "epoch_25": 185.2186737060547,
+  "epoch_30": 228.2544403076172
+ },
+ "probe_acc": {
+  "epoch_30": {
+   "test_acc": 0.02594,
+   "train_acc": 0.039672423657493516
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.3425406813621521,
+  "alpha_max": 0.3649986684322357,
+  "mu_approx": 2.9193612741802983,
+  "context_sensitivity": 0.5759972929954529,
+  "n_samples": 200
+ },
+ "aux_by_epoch": {
+  "epoch_1": {
+   "pred_loss": 0.30405951437237355,
+   "sigreg": null,
+   "vicreg_var": 0.019670674838429075,
+   "vicreg_cov": 1.510891916249677
+  },
+  "epoch_2": {
+   "pred_loss": 0.3550623065228466,
+   "sigreg": null,
+   "vicreg_var": 0.00041593811201330475,
+   "vicreg_cov": 0.2834367503841623
+  },
+  "epoch_3": {
+   "pred_loss": 0.35904489132426054,
+   "sigreg": null,
+   "vicreg_var": 0.0003193979462646488,
+   "vicreg_cov": 0.23708968105123673
+  },
+  "epoch_4": {
+   "pred_loss": 0.2765521697229523,
+   "sigreg": null,
+   "vicreg_var": 0.007837540599425676,
+   "vicreg_cov": 6.294133585943974
+  },
+  "epoch_5": {
+   "pred_loss": 0.12830756867317844,
+   "sigreg": null,
+   "vicreg_var": 0.0036110193092109685,
+   "vicreg_cov": 1.3352038218058366
+  },
+  "epoch_6": {
+   "pred_loss": 0.19222165046802847,
+   "sigreg": null,
+   "vicreg_var": 0.02493775739879065,
+   "vicreg_cov": 113.08285357535695
+  },
+  "epoch_7": {
+   "pred_loss": 0.00032627123683144963,
+   "sigreg": null,
+   "vicreg_var": 0.13200155626066762,
+   "vicreg_cov": 6.203002890999273
+  },
+  "epoch_8": {
+   "pred_loss": 0.0003138690962682111,
+   "sigreg": null,
+   "vicreg_var": 0.07238733949888644,
+   "vicreg_cov": 4.569887125425392
+  },
+  "epoch_9": {
+   "pred_loss": 0.0007500362792210527,
+   "sigreg": null,
+   "vicreg_var": 0.029122968648775217,
+   "vicreg_cov": 267.75148250483016
+  },
+  "epoch_10": {
+   "pred_loss": 7.555499569258204e-05,
+   "sigreg": null,
+   "vicreg_var": 0.0963644354189519,
+   "vicreg_cov": 4.5134526915211
+  },
+  "epoch_11": {
+   "pred_loss": 8.538279278910805e-05,
+   "sigreg": null,
+   "vicreg_var": 0.07034356742099726,
+   "vicreg_cov": 4.348549862655042
+  },
+  "epoch_12": {
+   "pred_loss": 0.0001575918437791713,
+   "sigreg": null,
+   "vicreg_var": 0.021169704212747095,
+   "vicreg_cov": 3.2914394923537182
+  },
+  "epoch_13": {
+   "pred_loss": 0.00035968837591376137,
+   "sigreg": null,
+   "vicreg_var": 0.003185402663334764,
+   "vicreg_cov": 1.2037925091769388
+  },
+  "epoch_14": {
+   "pred_loss": 0.0036745966824093946,
+   "sigreg": null,
+   "vicreg_var": 0.0011198100215161996,
+   "vicreg_cov": 0.5431176526940984
+  },
+  "epoch_15": {
+   "pred_loss": 0.002798410531000899,
+   "sigreg": null,
+   "vicreg_var": 0.0005881485540114262,
+   "vicreg_cov": 0.3472383343558803
+  },
+  "epoch_16": {
+   "pred_loss": 0.007412724323469481,
+   "sigreg": null,
+   "vicreg_var": 0.00047488251669206477,
+   "vicreg_cov": 0.3129711366957612
+  },
+  "epoch_17": {
+   "pred_loss": 0.022527582476661503,
+   "sigreg": null,
+   "vicreg_var": 0.0006224212745810095,
+   "vicreg_cov": 217.9630397713537
+  },
+  "epoch_18": {
+   "pred_loss": 0.014450490082694898,
+   "sigreg": null,
+   "vicreg_var": 0.2163452551540162,
+   "vicreg_cov": 15.67920491392378
+  },
+  "epoch_19": {
+   "pred_loss": 0.0006901764562710833,
+   "sigreg": null,
+   "vicreg_var": 0.2585183260180681,
+   "vicreg_cov": 3.7670594351850064
+  },
+  "epoch_20": {
+   "pred_loss": 0.0018905893585709431,
+   "sigreg": null,
+   "vicreg_var": 0.20961943885786452,
+   "vicreg_cov": 4.201893247288766
+  },
+  "epoch_21": {
+   "pred_loss": 0.008157869204983032,
+   "sigreg": null,
+   "vicreg_var": 0.06863389517345148,
+   "vicreg_cov": 4.560966966058806
+  },
+  "epoch_22": {
+   "pred_loss": 0.060324584661746956,
+   "sigreg": null,
+   "vicreg_var": 0.007960854264029817,
+   "vicreg_cov": 2.3762065345625416
+  },
+  "epoch_23": {
+   "pred_loss": 0.14841954413053993,
+   "sigreg": null,
+   "vicreg_var": 0.003746040213721351,
+   "vicreg_cov": 1.484045961396776
+  },
+  "epoch_24": {
+   "pred_loss": 0.21331957828321998,
+   "sigreg": null,
+   "vicreg_var": 0.0023272931681395763,
+   "vicreg_cov": 1.0886467653784535
+  },
+  "epoch_25": {
+   "pred_loss": 0.2534263185459933,
+   "sigreg": null,
+   "vicreg_var": 0.0015948471685068952,
+   "vicreg_cov": 0.8508535229997765
+  },
+  "epoch_26": {
+   "pred_loss": 0.27870425060212756,
+   "sigreg": null,
+   "vicreg_var": 0.0011903622203284494,
+   "vicreg_cov": 0.7002145759016871
+  },
+  "epoch_27": {
+   "pred_loss": 0.2949600492974075,
+   "sigreg": null,
+   "vicreg_var": 0.0008375478387144648,
+   "vicreg_cov": 0.5582549954346901
+  },
+  "epoch_28": {
+   "pred_loss": 0.3031282463757921,
+   "sigreg": null,
+   "vicreg_var": 0.0006767701034549973,
+   "vicreg_cov": 0.4708395926691264
+  },
+  "epoch_29": {
+   "pred_loss": 0.30659077119388933,
+   "sigreg": null,
+   "vicreg_var": 0.0005314385747214293,
+   "vicreg_cov": 0.39469240047186493
+  },
+  "epoch_30": {
+   "pred_loss": 0.30792187531884435,
+   "sigreg": null,
+   "vicreg_var": 0.00044754462798415824,
+   "vicreg_cov": 0.35612470176008393
+  }
+ }
+}

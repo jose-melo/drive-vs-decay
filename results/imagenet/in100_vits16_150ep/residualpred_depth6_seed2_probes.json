@@ -1,0 +1,24 @@
+{
+ "ckpt": "residualpred_depth6_seed2-latest.pth.tar",
+ "model_name": "vit_small",
+ "patch_size": 16,
+ "crop_size": 128,
+ "epoch": 150,
+ "knn20_test_acc": 0.2546,
+ "attentive_sweep": {
+  "5e-04": {
+   "holdout_acc": 0.5718683400426238,
+   "val_acc": 0.5524
+  },
+  "1e-03": {
+   "holdout_acc": 0.5515036703765096,
+   "val_acc": 0.5284
+  },
+  "2e-03": {
+   "holdout_acc": 0.5514247375483463,
+   "val_acc": 0.5122
+  }
+ },
+ "attentive_best_lr": "5e-04",
+ "attentive_test_acc": 0.5524
+}

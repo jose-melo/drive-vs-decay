@@ -1,0 +1,101 @@
+{
+ "config": {
+  "predictor_type": "residualpred",
+  "pred_depth": 4,
+  "model_name": "vit_small",
+  "patch_size": 8,
+  "crop_size": 96,
+  "enc_mask_scale": [
+   0.8,
+   0.9
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 0.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.027442190796136856,
+  "mu_75": 0.06158606708049774,
+  "mu_mean": 0.06207042187452316,
+  "n_modes": 147456,
+  "n_learning": 2413,
+  "n_total": 147456,
+  "frac_learning": 0.01636420376598835
+ },
+ "erank": {
+  "epoch_0": 6.984263896942139,
+  "epoch_5": 26.180906295776367,
+  "epoch_10": 23.115175247192383,
+  "epoch_15": 22.175966262817383,
+  "epoch_20": 22.73395538330078,
+  "epoch_25": 25.566871643066406,
+  "epoch_30": 29.957015991210938,
+  "epoch_35": 35.0413818359375,
+  "epoch_40": 39.08233642578125,
+  "epoch_45": 44.35100173950195,
+  "epoch_50": 48.67306900024414,
+  "epoch_55": 53.21934509277344,
+  "epoch_60": 57.65168380737305,
+  "epoch_65": 63.55256271362305,
+  "epoch_70": 70.33940124511719,
+  "epoch_75": 78.52017974853516,
+  "epoch_80": 86.53244018554688,
+  "epoch_85": 93.34680938720703,
+  "epoch_90": 97.55484771728516,
+  "epoch_95": 100.61788177490234,
+  "epoch_100": 100.62930297851562
+ },
+ "probe_acc": {
+  "epoch_10": {
+   "test_acc": 0.510125,
+   "train_acc": 0.5628
+  },
+  "epoch_20": {
+   "test_acc": 0.564625,
+   "train_acc": 0.629
+  },
+  "epoch_30": {
+   "test_acc": 0.6125,
+   "train_acc": 0.6852
+  },
+  "epoch_40": {
+   "test_acc": 0.639875,
+   "train_acc": 0.7218
+  },
+  "epoch_50": {
+   "test_acc": 0.6625,
+   "train_acc": 0.7502
+  },
+  "epoch_60": {
+   "test_acc": 0.67575,
+   "train_acc": 0.7716
+  },
+  "epoch_70": {
+   "test_acc": 0.682125,
+   "train_acc": 0.7878
+  },
+  "epoch_80": {
+   "test_acc": 0.693875,
+   "train_acc": 0.8054
+  },
+  "epoch_90": {
+   "test_acc": 0.705,
+   "train_acc": 0.8174
+  },
+  "epoch_100": {
+   "test_acc": 0.705625,
+   "train_acc": 0.8216
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.27293846011161804,
+  "alpha_max": 0.3061167895793915,
+  "mu_approx": 3.6638295665295777,
+  "context_sensitivity": 0.4244438707828522,
+  "n_samples": 200
+ }
+}

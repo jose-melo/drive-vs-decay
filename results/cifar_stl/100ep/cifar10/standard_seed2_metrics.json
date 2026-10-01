@@ -1,0 +1,101 @@
+{
+ "config": {
+  "predictor_type": "standard",
+  "pred_depth": 4,
+  "model_name": "vit_small",
+  "patch_size": 4,
+  "crop_size": 32,
+  "enc_mask_scale": [
+   0.8,
+   0.9
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.009305262006819248,
+  "mu_75": 0.05076753720641136,
+  "mu_mean": 0.046317264437675476,
+  "n_modes": 147456,
+  "n_learning": 1698,
+  "n_total": 147072,
+  "frac_learning": 0.011545365676283836
+ },
+ "erank": {
+  "epoch_0": 4.160815238952637,
+  "epoch_5": 14.735477447509766,
+  "epoch_10": 17.518056869506836,
+  "epoch_15": 17.80708122253418,
+  "epoch_20": 17.691356658935547,
+  "epoch_25": 17.766036987304688,
+  "epoch_30": 18.286693572998047,
+  "epoch_35": 19.083396911621094,
+  "epoch_40": 19.809398651123047,
+  "epoch_45": 21.243003845214844,
+  "epoch_50": 22.462921142578125,
+  "epoch_55": 23.935827255249023,
+  "epoch_60": 25.872472763061523,
+  "epoch_65": 27.673654556274414,
+  "epoch_70": 30.020559310913086,
+  "epoch_75": 31.94951057434082,
+  "epoch_80": 33.786827087402344,
+  "epoch_85": 35.312644958496094,
+  "epoch_90": 36.289791107177734,
+  "epoch_95": 36.73345184326172,
+  "epoch_100": 36.930503845214844
+ },
+ "probe_acc": {
+  "epoch_10": {
+   "test_acc": 0.5157,
+   "train_acc": 0.52664
+  },
+  "epoch_20": {
+   "test_acc": 0.5391,
+   "train_acc": 0.54936
+  },
+  "epoch_30": {
+   "test_acc": 0.5662,
+   "train_acc": 0.57604
+  },
+  "epoch_40": {
+   "test_acc": 0.5777,
+   "train_acc": 0.59036
+  },
+  "epoch_50": {
+   "test_acc": 0.592,
+   "train_acc": 0.6067
+  },
+  "epoch_60": {
+   "test_acc": 0.6138,
+   "train_acc": 0.63556
+  },
+  "epoch_70": {
+   "test_acc": 0.6404,
+   "train_acc": 0.65146
+  },
+  "epoch_80": {
+   "test_acc": 0.6524,
+   "train_acc": 0.66562
+  },
+  "epoch_90": {
+   "test_acc": 0.6618,
+   "train_acc": 0.67554
+  },
+  "epoch_100": {
+   "test_acc": 0.6631,
+   "train_acc": 0.67622
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.22398073971271515,
+  "alpha_max": 0.24235950410366058,
+  "mu_approx": 4.464669601871268,
+  "context_sensitivity": 0.5659970641136169,
+  "n_samples": 200
+ }
+}

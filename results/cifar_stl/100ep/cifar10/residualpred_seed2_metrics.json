@@ -1,0 +1,101 @@
+{
+ "config": {
+  "predictor_type": "residualpred",
+  "pred_depth": 4,
+  "model_name": "vit_small",
+  "patch_size": 4,
+  "crop_size": 32,
+  "enc_mask_scale": [
+   0.8,
+   0.9
+  ],
+  "pred_mask_scale": [
+   0.15,
+   0.2
+  ],
+  "beta_init": 10.0,
+  "no_zero_init": false
+ },
+ "mu_init": {
+  "mu_25": 0.0,
+  "mu_50": 0.009305262006819248,
+  "mu_75": 0.05076753720641136,
+  "mu_mean": 0.046317264437675476,
+  "n_modes": 147456,
+  "n_learning": 1698,
+  "n_total": 147072,
+  "frac_learning": 0.011545365676283836
+ },
+ "erank": {
+  "epoch_0": 4.160815238952637,
+  "epoch_5": 18.85969352722168,
+  "epoch_10": 19.961328506469727,
+  "epoch_15": 19.667760848999023,
+  "epoch_20": 20.279146194458008,
+  "epoch_25": 21.441884994506836,
+  "epoch_30": 22.86574363708496,
+  "epoch_35": 24.144336700439453,
+  "epoch_40": 25.73448944091797,
+  "epoch_45": 28.136632919311523,
+  "epoch_50": 30.417667388916016,
+  "epoch_55": 32.695064544677734,
+  "epoch_60": 36.23216247558594,
+  "epoch_65": 40.509971618652344,
+  "epoch_70": 44.83035659790039,
+  "epoch_75": 49.3275032043457,
+  "epoch_80": 54.006900787353516,
+  "epoch_85": 57.922386169433594,
+  "epoch_90": 60.84465789794922,
+  "epoch_95": 62.55712890625,
+  "epoch_100": 63.090572357177734
+ },
+ "probe_acc": {
+  "epoch_10": {
+   "test_acc": 0.5348,
+   "train_acc": 0.5513
+  },
+  "epoch_20": {
+   "test_acc": 0.5705,
+   "train_acc": 0.58132
+  },
+  "epoch_30": {
+   "test_acc": 0.5858,
+   "train_acc": 0.59384
+  },
+  "epoch_40": {
+   "test_acc": 0.5901,
+   "train_acc": 0.604
+  },
+  "epoch_50": {
+   "test_acc": 0.6099,
+   "train_acc": 0.6246
+  },
+  "epoch_60": {
+   "test_acc": 0.634,
+   "train_acc": 0.6536
+  },
+  "epoch_70": {
+   "test_acc": 0.6538,
+   "train_acc": 0.67234
+  },
+  "epoch_80": {
+   "test_acc": 0.6688,
+   "train_acc": 0.6873
+  },
+  "epoch_90": {
+   "test_acc": 0.676,
+   "train_acc": 0.69552
+  },
+  "epoch_100": {
+   "test_acc": 0.6795,
+   "train_acc": 0.69762
+  }
+ },
+ "predictor_sensitivity": {
+  "alpha_eff": 0.19768103957176208,
+  "alpha_max": 0.22481977939605713,
+  "mu_approx": 5.058654093312679,
+  "context_sensitivity": 0.5636250376701355,
+  "n_samples": 200
+ }
+}
